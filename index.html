@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- header -->
+    <div class="header">
+        <!-- burger-menu -->
+            <nav role="navigation" class="my-burger-menu">
+                    <div id="menuToggle">
+                      <input type="checkbox" />
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                      <ul id="menu">
+                        <p href="#">
+                          <li class="fromLeft">About Us</li>
+                        </p>
+                        <p href="#">
+                          <li class="fromLeft">Security</li>
+                        </p>
+                        <p href="#">
+                          <li class="fromLeft">How it Works</li>
+                        </p>
+                        <p href="#">
+                          <li class="fromLeft blueLi">Login with BankID</li>
+                        </p>
+                      </ul>
+                    </div>
+                  </nav>
+                  <!---->
+        <img class="logo" src="images/logo.png" alt="">
+        <div class="menu">
+            <a href="#">About Us</a>
+            <a href="#">Security</a>
+            <a href="#">How it Works</a>
+        </div>
+        <div class="login">
+            <img src="images/blue-logo.png" alt="">
+            <p>Login with BankID</p>
+        </div>
+    </div>
+
+    <!-- content -->
+
+    <div class="questions">
+        <div class="container">
+            <p class="question-title">Frequently Asked Questions</p>
+            <div class="blocks">
+                <div class="block">
+                    <div class="block-title">
+                        <div class="sprite sprite1"></div>
+                        <p>Subscriptions</p>
+                    </div>
+                    <div class="block-content">
+                        <p>
+                            <a href="">What does it mean to cancel a subscription via My Services?</a>
+                        </p>
+                        <br>
+                        <p>
+                            <a href="">What subscriptions can I cancel through My Services?</a>
+                        </p>
+                        <br>
+                        <p>
+                            <a href="">How do I know that the subscriptions I cancel through My Services are actually terminated?</a>
+                        </p>
+                        <br>
+                        <p>
+                            <a href="">What happens if I have a binding period left when I cancel a subscription via My Services?</a>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="block">
+                    <div class="block-title">
+                            <div class="sprite sprite2"></div>
+                        <p>Ordering</p>
+                    </div>
+                    <div class="block-content">
+                        <p>
+                            <a href="">What does it mean to cancel a subscription via My Services?</a>
+                        </p>
+                        <br>
+                        <p>
+                            <a href="">What subscriptions can I cancel through My Services?</a>
+                        </p>
+                        <br>
+                        <p>
+                            <a href="">How do I know that the subscriptions I cancel through My Services are actually terminated?</a>
+                        </p>
+                        <br>
+                        <p>
+                            <a href="">What happens if I have a binding period left when I cancel a subscription via My Services?</a>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="block last-block">
+                    <div class="block-title">
+                            <div class="sprite sprite3"></div>
+                        <p>Security</p>
+                    </div>
+                    <div class="block-content">
+                        <p>
+                            <a href="">Why do I need Mobile Bank ID to use My Services?</a>
+                        </p>
+                        <br>
+                        <p>
+                            <a href="">Is It Safe to Use My Services?</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="blue-block">
+            <div class="blue-container">
+                <div class="text">
+                    <p class="top">Ready to get started? </p>
+                    <p class="bottom">Sign up and start now! </p>
+                </div>
+                <div class="button">
+                    <img src="images/white-logo.png" alt="">
+                    <p>Login with bankid</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+
+    <div class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-block">
+                    <p class="footer-title">Office</p>
+                    <p class="submenu">Lorem Address 11</p>
+                    <p class="submenu">2200 Vasteras</p>
+                    <p class="submenu">Sweden</p>
+                </div>
+                <div class="footer-block">
+                    <p class="footer-title">Contact</p>
+                    <p class="submenu">Chat Support</p>
+                    <p class="submenu">info@unppsagning.se</p>
+                    <p class="submenu">+45 000 000-2321</p>
+                </div>
+                <div class="footer-block">
+                    <p class="footer-title">Links</p>
+                    <p class="submenu">
+                        <a href="">How It Works</a>
+                    </p>
+                    <p class="submenu">
+                        <a href="">Security</a>
+                    </p>
+                    <p class="submenu">
+                        <a href="">FAQ</a>
+                    </p>
+                </div>
+                <div class="footer-block last">
+                    <p class="footer-title">Company</p>
+                    <p class="submenu">
+                        <a href="">About us</a>
+                    </p>
+                    <p class="submenu">
+                        <a href="">Terms & Conditions</a>
+                    </p>
+                    <p class="submenu">
+                        <a href="">Privacy Policy</a>
+                    </p>
+                </div>
+            </div>
+            <p class="rights">2020 Uppsagning Company. All rights reserved.</p>
+        </div>
+    </div>
+
+<div class="popup-wrapper" id="popup">
+    <div class="popup">
+        <div class="img-wrapper"><img src="images/cross.png" alt="" onclick="closePopUp()"></div>
+       <p class="popup-title">I have received two invoices for my electricity contract - what does that mean?</p>
+       <p class="popup-text">If you have switched electricity contracts through us at My Services, it always means that your previous electricity agreement has been terminated in connection with the exchange, since you cannot have two active electricity trading agreements at the same address. <br>
+            Why did you then receive two invoices? <br> <br>
+            
+            Well, when it comes to electricity contracts it is always divided into 2 parts, electricity grids and electricity trading.
+            Power grids are always connected to the area where you live and can never be changed.
+            <br> <br>
+            You always get an invoice for your electricity grid.
+            <br> <br>
+            Electricity agreement is the agreement you can exchange between different suppliers and this is also the one that you have changed through us at My Services.
+            <br> <br>
+            You always get an invoice for your electricity trade.
+            <br> <br>
+            If you previously received an invoice, it means that you probably had both your electricity grid and your electricity deal with the same supplier.</p>
+    </div>
+</div>
+    <script src="script.js"></script>
+</body>
+
+</html>
